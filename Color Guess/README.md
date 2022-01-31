@@ -6,6 +6,16 @@ Para isso, criamos um arquivo HTML, outro CSS e outro JavaScript.
 
 ---
 
+# Habilidades
+
+- Manipular o DOM;
+
+- Manipular o Javascript;
+
+- Manipular o CSS.
+
+---
+
 ## Requisitos
 
 Ao todo, incluindo o bônus, foram 7 requisitos:
