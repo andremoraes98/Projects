@@ -6,7 +6,7 @@ O objetivo dessas funções era fazer com que o site de compras ficasse mais din
 
 Os produtos são importados para o site através da API pública do Mercado Livre.
 
-Portanto, para desenvolver esse projeto, implementamos as funções da pasta helpers, e criamos os testes da pasta tests. Todos os testes foram criados no Jest.
+Portanto, para desenvolver esse projeto, além dos arquivos HTML, CSS e JavaScript, implementamos também as funções da pasta helpers, e criamos os testes da pasta tests. Todos os testes foram criados no Jest.
 
 ---
 
