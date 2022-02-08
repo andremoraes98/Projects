@@ -3,6 +3,7 @@ const containerCartItems = document.querySelector('.cart__items');
 const cartList = document.querySelector('.cart__items');
 const htmlPrice = document.querySelector('.total-price');
 const buttonClear = document.querySelector('.empty-cart');
+const buttonSearch = document.querySelector('#search-button');
 let totalPrice = 0;
 
 const savePriceInLocalStorage = () => {
@@ -117,16 +118,27 @@ const removeItemsAfterReloadPage = (itemsOfList) => {
   });
 };
 
-window.onload = async () => {
-  addAStateOfCharging();
-  const dataProducts = await (fetchProducts('computador'));
+const searchProducts = async () => {
+  let searchProduct = 'teclado';
+  const valueSearch = document.querySelector('#search-input').value;
+  if (valueSearch !== '') {
+    searchProduct = valueSearch;
+  }
+  const dataProducts = await (fetchProducts(searchProduct));
   const products = dataProducts.results;
   if (products) {
-    document.querySelector('.loading').remove();
+    containerProducts.innerHTML = '';
     const refineProducts = products.map((product) => getSkuNameImagePriceFromProducts(product));
     refineProducts.forEach((product) => containerProducts
       .appendChild(createProductItemElement(product)));
   }
+};
+
+buttonSearch.addEventListener('click', searchProducts);
+
+window.onload = async () => {
+  addAStateOfCharging();
+  searchProducts();
   containerCartItems.innerHTML = getSavedCartItems('cartItems');
   const cartItemsList = document.querySelectorAll('li');
   removeItemsAfterReloadPage(cartItemsList);
