@@ -166,7 +166,7 @@ button.search {
 .empty-cart {
   width: 170px;
   height: 35px;
-  margin: 0 auto;
+  margin: 20px auto;
   border: 2px solid rgb(5, 52, 219);
   background-color: rgb(249, 249, 246);
   cursor: pointer;
@@ -184,6 +184,11 @@ button.search {
 }
 
 .image__item {
-  border-radius: 50%;
+  border-radius: 25%;
   margin: 5px;
+}
+
+.price {
+  text-align: center;
+  margin: 50px 0 10px;
 }
