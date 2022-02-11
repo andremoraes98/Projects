@@ -58,13 +58,13 @@ const addRemovePriceOfProduct = (priceOfProduct, type) => {
   }
 };
 
-function cartItemClickListener(event) {
+function cartItemClickListener(e) {
   // coloque seu código aqui
-  event.target.remove();
-  addRemovePriceOfProduct(parseFloat(event.target.id, 10), '-');
+  addRemovePriceOfProduct(parseFloat(e.target.parentElement.id, 10), '-');
+  e.target.parentElement.remove();
 }
 
-function createCartItemElement({ sku, name, salePrice, image }) {
+function createCartItemElement({ name, salePrice, image }) {
   const li = document.createElement('li');
   const liImg = document.createElement('img');
   const liDiv = document.createElement('div');
@@ -101,7 +101,6 @@ containerProducts.addEventListener('click', putProductOnCart = async (e) => {
     const dataCartItem = await fetchItem(idOfProduct);
     const refineCartItem = getSkuNameImagePriceFromProducts(dataCartItem);
     containerCartItems.appendChild(createCartItemElement(refineCartItem));
-    console.log(refineCartItem);
     addRemovePriceOfProduct(refineCartItem.salePrice, '+');
     saveCartItems('cartItems', containerCartItems.innerHTML);
     savePriceInLocalStorage();
