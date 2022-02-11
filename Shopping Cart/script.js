@@ -64,11 +64,18 @@ function cartItemClickListener(event) {
   addRemovePriceOfProduct(parseFloat(event.target.id, 10), '-');
 }
 
-function createCartItemElement({ sku, name, salePrice }) {
+function createCartItemElement({ sku, name, salePrice, image }) {
   const li = document.createElement('li');
+  const liImg = document.createElement('img');
+  const liDiv = document.createElement('div');
+  liImg.src = image;
+  liImg.className = 'image__item';
   li.className = 'cart__item';
-  li.innerText = `SKU: ${sku} | NAME: ${name} | PRICE: $${salePrice}`;
+  liDiv.innerText = `${name}
+  Preço: $${salePrice}`;
   li.id = salePrice;
+  li.appendChild(liImg);
+  li.appendChild(liDiv);
   li.addEventListener('click', cartItemClickListener);
   return li;
 }
@@ -94,6 +101,7 @@ containerProducts.addEventListener('click', putProductOnCart = async (e) => {
     const dataCartItem = await fetchItem(idOfProduct);
     const refineCartItem = getSkuNameImagePriceFromProducts(dataCartItem);
     containerCartItems.appendChild(createCartItemElement(refineCartItem));
+    console.log(refineCartItem);
     addRemovePriceOfProduct(refineCartItem.salePrice, '+');
     saveCartItems('cartItems', containerCartItems.innerHTML);
     savePriceInLocalStorage();
