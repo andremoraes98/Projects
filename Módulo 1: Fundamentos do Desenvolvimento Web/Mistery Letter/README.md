@@ -18,7 +18,7 @@ Para isso, criamos um arquivo HTML, outro CSS e outro JavaScript.
 
 ## Requisitos
 
-Ao todo, incluindo o bônus, foram 16 requisitos obrigatórios e 2 requisitos bônus. Entre eles:
+Ao todo, incluindo o bônus, foram 18 requisitos. São eles:
 
 #### 1. Deve haver um input com o id="carta-texto" onde a pessoa usuária poderá digitar o conteúdo da carta;
 
