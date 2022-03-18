@@ -3,17 +3,17 @@
 Neste repositório, constam todos os projetos elaborados durante o curso da Trybe. O curso é dividido em 4 módulos. Em cada pasta, constam os projetos do respectivo módulo.
 
 ### Módulo 1: Fundamentos do Desenvolvimento Web:
-#### Lessons Learned :heavy_check_mark:;
-#### Playground Functions;
-#### Pixels Art;
+#### Lessons Learned :heavy_check_mark: ;
+#### Playground Functions :heavy_check_mark: ;
+#### Pixels Art :heavy_check_mark: ;
 #### To Do List;
 #### Meme Generator :heavy_check_mark:;
-#### Color Guess; :heavy_check_mark:
+#### Color Guess :heavy_check_mark: ;
 #### Mistery Letter;
 #### Trybewarts;
-#### Unit Tests :heavy_check_mark:;
+#### Unit Tests :heavy_check_mark: ;
 #### Zoo Functions;
-#### Shopping Cart :heavy_check_mark:.
+#### Shopping Cart :heavy_check_mark: .
 
 ---
 
