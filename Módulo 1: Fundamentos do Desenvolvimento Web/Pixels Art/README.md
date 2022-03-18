@@ -18,7 +18,7 @@ Para isso, criamos um arquivo HTML, outro CSS e outro JavaScript.
 
 ## Requisitos
 
-Ao todo, incluindo o bônus, foram 7 requisitos:
+Ao todo, incluindo o bônus, foram 9 requisitos obrigatórios e 3 requisitos bônus. São eles:
 
 #### 1. Adicione à página o título "Paleta de Cores";
 
