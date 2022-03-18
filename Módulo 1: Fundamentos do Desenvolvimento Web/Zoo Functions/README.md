@@ -1,8 +1,8 @@
-# Projeto Color Guess
+# Projeto Zoo Functions
 
 Neste projeto, fomos responsáveis por implementar algumas funções utilizando HOFs (Higher Order Functions) para manipularmos objetos e arrays, com o intuito de extrair informações de forma clara, legível e escalável.
 
-Para isso, implementamos as funções em alguns arquivos JavaScript.
+Para isso, implementamos as funções em alguns arquivos JavaScript, contidos na pasta functions.
 
 ---
 
