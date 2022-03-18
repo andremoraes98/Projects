@@ -31,7 +31,7 @@ Manipular arrays (listas);
 
 ## Requisitos
 
-Ao todo, incluindo o bônus, foram 10 requisitos obrigatórios e 3 requisitos bônus. São eles:
+Ao todo, incluindo o bônus, foram 13 requisitos. São eles:
 
 #### 1. Crie uma função usando o operador &&;
 
