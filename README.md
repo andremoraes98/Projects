@@ -6,13 +6,13 @@ Neste repositório, constam todos os projetos elaborados durante o curso da Tryb
 #### Lessons Learned :heavy_check_mark: ;
 #### Playground Functions :heavy_check_mark: ;
 #### Pixels Art :heavy_check_mark: ;
-#### To Do List;
+#### To Do List :heavy_check_mark: ;
 #### Meme Generator :heavy_check_mark:;
 #### Color Guess :heavy_check_mark: ;
-#### Mistery Letter;
-#### Trybewarts;
+#### Mistery Letter :heavy_check_mark: ;
+#### Trybewarts :heavy_check_mark: ;
 #### Unit Tests :heavy_check_mark: ;
-#### Zoo Functions;
+#### Zoo Functions :heavy_check_mark: ;
 #### Shopping Cart :heavy_check_mark: .
 
 ---
