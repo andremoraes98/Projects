@@ -1,6 +1,6 @@
-# Projeto Color Guess
+# Projeto Playground Functions
 
-Neste projeto, nós implementamos algumas funções, de acordo com o que era explicitado no requisito.
+Neste projeto, nós implementamos algumas funções em JavaScript, de acordo com o que era explicitado no requisito.
 
 Para isso, criamos dois arquivos JavaScript: um para os requisitos obrigatórios (challenges.js) e outro para os requisitos bônus (challenges2.js).
 
