@@ -1,5 +1,7 @@
 # Projeto Meme Generator
 
+<img src="../../images/MEME_GENERATOR.png" alt="Project-logo">
+
 Neste projeto, nós criamos um site que gera um meme. No rodapé do site, já contém 4 modelos de fotos pré-definidas para fazer o meme. No entanto, ainda há a possibilidade da pessoa usuária mandar a própria imagem para gerar o meme que ela quiser. Além disso, é possível também alterar a borda da foto do meme.
 
 Para isso, o site foi desenvolvido com HTML, CSS e JavaScript.
