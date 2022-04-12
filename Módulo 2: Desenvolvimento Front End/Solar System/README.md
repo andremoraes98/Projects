@@ -1,4 +1,4 @@
-# Projeto Color Guess
+# Projeto Solar System
 
 <img src="../../images/SOLAR_SYSTEM.png" alt="Project-logo">
 
