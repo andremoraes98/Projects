@@ -1,5 +1,7 @@
 # Projeto TrybeWarts
 
+<img src="../../images/TRYBEWARTS.png" alt="Project-logo">
+
 Neste projeto, nós criamos uma forma de cadastro em uma escola de bruxo, inspirada em uma saga de bruxos muito famosa. Além de fornecer algumas informações pessoais, também é possível deixar um comentário e fazer com que todas as informações fiquem salvas, ao concordar com os termos e enviar o formulário.
 
 Para isso, criamos um arquivo HTML, outro CSS e outro JavaScript.
