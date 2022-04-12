@@ -1,5 +1,7 @@
 # Projeto Shopping Cart
 
+<img src="../../images/SHOPPING_CART.png" alt="Project-logo">
+
 Neste projeto, fomos responsáveis hora por implementar funções e seus respectivos testes. A Trybe orientou que esse processo podeira ser feito através da forma de desenvolvimento TDD (Test Driven Development) e foi assim que optei por desenvolver.
 
 O objetivo dessas funções era fazer com que o site de compras ficasse mais dinâmico, adicionando ou removendo produtos do carrinho, informando o valor total dos produtos que estavam no carrinho.
