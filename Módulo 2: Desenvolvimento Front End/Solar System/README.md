@@ -1,39 +1,51 @@
 # Projeto Color Guess
 
-<img src="../../images/COLOR_GUESS.png" alt="Project-logo">
+<img src="../../images/SOLAR_SYSTEM.png" alt="Project-logo">
 
-Neste projeto, nós criamos um site que continha um jogo de advinhação de cor. Seis cores são dispostas em círculos e, a partir do código RGB dado, a pessoa usuária tem que tentar advinhar quais das seis cores corresponde àquele código RGB.
+Este foi o primeiro projeto em React desenvolvido. Nele, fomos responsáveis por criar uma aplicação ilustrativa, contendo todos os planetas do sistema solar e algumas missões que aconteceram ao longo da história.
 
-Para isso, criamos um arquivo HTML, outro CSS e outro JavaScript.
+Para isso, criamos uma aplicação com o React, com o auxílio de alguns componentes.
 
 ---
 
 # Habilidades
 
-- Manipular o DOM;
+- Utilizar JSX no React;
 
-- Manipular o Javascript;
+- Utilizar corretamente o método `render()` para renderizar seus componentes;
 
-- Manipular o CSS.
+- Utilizar `import` para trazer componentes em diferentes arquivos;
+
+- Criar componentes de classe em React;
+
+- Criar múltiplos componentes a partir de um array;
+
+- Fazer uso de `props` corretamente;
+
+- Fazer uso de `PropTypes` para validar as `props de um componente`.
 
 ---
 
 ## Requisitos
 
-Ao todo, incluindo o bônus, foram 7 requisitos:
+Ao todo foram 10 requisitos:
 
-#### 1. Adicione no seu site um título com o nome do seu jogo;
+#### 1. Crie um componente chamado `Header`;
 
-#### 2. Adicione um texto com o código RGB a ser adivinhado;
+#### 2. Crie um componente chamado `SolarSystem`;
 
-#### 3. Adicione à página opções de cores para serem adivinhadas;
+#### 3. Crie um componente chamado `Title`;
 
-#### 4. Adicione cores nas bolas, elas devem ser geradas dinâmicamente;
+#### 4. Renderize o componente `Title` dentro do componente `SolarSystem`;
 
-#### 5. Clicar em um circulo colorido, deve ser mostrado um texto indicando se está correto;
+#### 5. Crie um componente chamado `PlanetCard`;
 
-#### 6. Crie um botão para iniciar/reiniciar o jogo.
+#### 6. Renderize uma lista com os planetas do Sistema Solar;
 
-## Bônus
+#### 7. Crie um componente chamado `Missions`;
 
-#### 7. Crie um placar que incremente 3 pontos para cada acerto no jogo.
+#### 8. Renderize o componente `Title` dentro do componente `Missions`;
+
+#### 9. Crie um componente chamado `MissionCard`;
+
+#### 10. Renderize uma lista com as missões espaciais.
