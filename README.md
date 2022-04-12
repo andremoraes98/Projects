@@ -18,7 +18,7 @@ Neste repositório, constam todos os projetos elaborados durante o curso da Tryb
 ---
 
 ### Módulo 2: Desenvolvimento Front End:
-#### Solar System;
+#### Solar System :heavy_check_mark: ;
 #### Tryunfo;
 #### TrybeTunes;
 #### React Tests;
