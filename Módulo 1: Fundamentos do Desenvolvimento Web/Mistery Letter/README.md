@@ -1,5 +1,7 @@
 # Projeto Mistery Letter
 
+<img src="../../images/MISTERY_LETTER.png" alt="Project-logo">
+
 Neste projeto, nós criamos uma aplicação que gera, aleatoriamente, algumas estilizações para as palavras contidas na frase que o usuário digitar.
 
 Para isso, criamos um arquivo HTML, outro CSS e outro JavaScript.
