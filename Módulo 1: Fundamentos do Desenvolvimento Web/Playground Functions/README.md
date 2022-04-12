@@ -1,6 +1,6 @@
 # Projeto Playground Functions
 
-<img src="../../images/PLAYGTOUND_FUNCTIONS.png" alt="Project-logo">
+<img src="../../images/PLAYGROUND_FUNCTIONS.png" alt="Project-logo">
 
 Neste projeto, nós implementamos algumas funções em JavaScript, de acordo com o que era explicitado no requisito.
 
