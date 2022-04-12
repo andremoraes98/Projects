@@ -1,5 +1,7 @@
 # Projeto Pixels Art
 
+<img src="../../images/PIXELS_ART.png" alt="Project-logo">
+
 Neste projeto, nós criamos uma aplicação que contém uma espécie de quadro que contém pixels. Para pintar o quadro, há quatro possibilidades de cores, que mudam ao atualizar o browser. Portanto, basta o usuário selecionar uma das quatro cores e clicar em um dos pixels do quadro o qual ele deseja colorir.
 
 Para isso, criamos um arquivo HTML, outro CSS e outro JavaScript.
