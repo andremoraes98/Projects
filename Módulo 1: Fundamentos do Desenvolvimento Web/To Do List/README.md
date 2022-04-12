@@ -1,5 +1,7 @@
 # Projeto To Do List
 
+<img src="../../images/TO_DO_LIST.png" alt="Project-logo">
+
 Neste projeto, nós desenvolvemos uma aplicação que simula uma lista de tarefas. O usuário pode adicionar, remover, selecionar, marcar como concluída, salvar a lista e organizar essas tarefas.
 
 Para isso, criamos um arquivo HTML, outro CSS e outro JavaScript.
