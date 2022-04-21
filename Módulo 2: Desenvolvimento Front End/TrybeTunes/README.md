@@ -1,4 +1,4 @@
-# Projeto Trynfo
+# Projeto Trybetunes
 
 <img src="../../images/TRYBETUNES.png" alt="Project-logo">
 
