@@ -31,7 +31,7 @@ class App extends React.Component {
       createdCards: [],
       hasTrunfo: false,
       nameFilter: '',
-      rarityFilter: 'todas',
+      rarityFilter: 'Todas',
       tryunfoFilter: false,
     };
   }
@@ -96,7 +96,7 @@ class App extends React.Component {
   searchCardsWithRarity(arrayOfCards) {
     const { rarityFilter } = this.state;
     const filtredCards = arrayOfCards.filter((card) => card.rarity === rarityFilter);
-    if (rarityFilter === 'todas') {
+    if (rarityFilter === 'Todas') {
       return arrayOfCards;
     } return filtredCards;
   }

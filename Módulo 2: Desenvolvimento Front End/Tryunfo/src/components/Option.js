@@ -13,10 +13,10 @@ class Option extends React.Component {
           value={ rarityFilter }
           onChange={ onInputChange }
         >
-          <option value="todas">todas</option>
-          <option value="normal">normal</option>
-          <option value="raro">raro</option>
-          <option value="muito raro">muito raro</option>
+          <option value="Todas">Todas</option>
+          <option value="normal">Normal</option>
+          <option value="Raro">Raro</option>
+          <option value="Muito Raro">Muito Raro</option>
         </select>
       </label>);
   }

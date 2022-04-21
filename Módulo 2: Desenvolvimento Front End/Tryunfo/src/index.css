@@ -89,11 +89,11 @@ img {
   font-size: larger;
 }
 
-.card p:nth-child(1) {
+.card-title {
   font-size: 35px;
 }
 
-.tryunfo, .card p:nth-child(1) {
+.tryunfo, .card-title {
   font-weight: 700;
   color: #FFFFFF;
 }
@@ -131,4 +131,33 @@ form {
   color: red;
   border: 2px solid red;
   margin-bottom: 50px;
+}
+
+.attributes {
+  background-color: white;
+  padding: 10px 50px;
+  border: solid black 1px;
+  border-radius: 10px;
+}
+
+.attributes p {
+  width: 200px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+select {
+  width: 181px;
+}
+
+.input-checkbox {
+  align-self: center;
+}
+
+button:disabled {
+  background-color: red;
+  cursor: not-allowed;
 }

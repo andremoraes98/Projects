@@ -9,6 +9,7 @@ class SuperTrunfoFilter extends React.Component {
         Super Trunfo
         <input
           name="tryunfoFilter"
+          id="tryunfoFilter"
           data-testid="trunfo-filter"
           type="checkbox"
           className="input-checkbox"

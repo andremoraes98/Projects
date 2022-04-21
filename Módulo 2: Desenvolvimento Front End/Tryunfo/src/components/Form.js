@@ -69,7 +69,7 @@ class Form extends React.Component {
         </label>
 
         <label htmlFor="attr1">
-          Atributo 1
+          Vitalidade
           <input
             name="attr1"
             data-testid="attr1-input"
@@ -81,7 +81,7 @@ class Form extends React.Component {
         </label>
 
         <label htmlFor="attr2">
-          Atributo 2
+          Destreza
           <input
             name="attr2"
             data-testid="attr2-input"
@@ -93,7 +93,7 @@ class Form extends React.Component {
         </label>
 
         <label htmlFor="attr3">
-          Atributo 3
+          Inteligência
           <input
             name="attr3"
             data-testid="attr3-input"
@@ -125,9 +125,9 @@ class Form extends React.Component {
             value={ cardRare }
             onChange={ onInputChange }
           >
-            <option value="normal">normal</option>
-            <option value="raro">raro</option>
-            <option value="muito raro">muito raro</option>
+            <option value="Normal">Normal</option>
+            <option value="Raro">Raro</option>
+            <option value="Muito Raro">Muito Raro</option>
           </select>
         </label>
 
