@@ -10,17 +10,17 @@ Para isso, desenvolvemos uma aplicação com o React, tomando como base um model
 
 # Habilidades
 
-- Ler o estado de um componente e usá-lo para alterar o que exibimos no browser
+- Ler o estado de um componente e usá-lo para alterar o que exibimos no browser;
 
-- Inicializar um componente, dando a ele um estado pré-definido
+- Inicializar um componente, dando a ele um estado pré-definido;
 
-- Atualizar o estado de um componente
+- Atualizar o estado de um componente;
 
-- Capturar eventos utilizando a sintaxe do React
+- Capturar eventos utilizando a sintaxe do React;
 
-- Criar formulários utilizando sintaxe JSX com as tags: `input`, `textarea`, `select`, `form`, `checkbox`
+- Criar formulários utilizando sintaxe JSX com as tags: `input`, `textarea`, `select`, `form`, `checkbox`;
 
-- Transmitir informações de componentes filhos para componentes pais via callbacks
+- Transmitir informações de componentes filhos para componentes pais via callbacks.
 
 ---
 
