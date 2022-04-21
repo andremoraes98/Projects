@@ -2,7 +2,7 @@
 
 <img src="../../images/TRYUNFO.png" alt="Project-logo">
 
-Neste projeto, fomos responsáveis por criar um jogo parecido com o Super Trunfo. A diferença é que podemos criar a carta que quisermos, respeitando sempre as regras de que o deck pode conter apenas um único Super Trunfo e o valor dos requisitos, somados, não podem ultrapassar o valor de 270.
+Neste projeto, fomos responsáveis por criar um jogo parecido com o Super Trunfo. A diferença é que podemos criar a carta que quisermos, respeitando sempre as regras de que o deck pode conter apenas um único Super Trunfo e o valor dos requisitos, somados, não podem ultrapassar o valor de 210.
 
 Para isso, desenvolvemos uma aplicação com o React, tomando como base um modelo em Figma disponibilizado previamente.
 
