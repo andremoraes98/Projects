@@ -22,7 +22,7 @@ Neste repositório, constam todos os projetos elaborados durante o curso da Tryb
 #### Tryunfo :heavy_check_mark: ;
 #### TrybeTunes :heavy_check_mark: ;
 #### React Tests :heavy_check_mark: ;
-#### Trybe Wallet;
+#### Trybe Wallet :heavy_check_mark: ;
 #### Trivia Game;
 #### StarWars Datable;
 #### Recipe App.

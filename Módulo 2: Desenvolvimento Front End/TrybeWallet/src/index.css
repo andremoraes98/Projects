@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #7fb1fb;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+  margin: calc(60vh/2) auto;
+  border: 1px solid black;
+  padding: 40px 0;
+  border-radius: 10px;
+  box-shadow: 15px 15px 20px #4a6492;
+  background-color: #FFF;
+}
+
+.login img {
+  width: 30%;
+  margin-bottom: 50px;
+}
+
+.loginInput {
+  margin: 5px 0;
+  width: 60%;
+  height: 30px;
+  padding: 0 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.login button:disabled {
+  cursor: not-allowed;
+  background-color: rgb(179, 179, 179);
+  color: gray;
+}
+
+.login button {
+  margin-top: 20px;
+  cursor: pointer;
+  width: 88px;
+  height: 44px;
+  border-radius: 22px;
+  font-size: 17px;
+  background-color: #7fb1fb;
+  color: #304c7c;
+  font-weight: 900;
+  border: 1px solid black;
+}
+
+
+form, tr {
+  display: flex;
+  align-items: center;
+  border-bottom: black solid 1px;
+  flex-wrap: wrap;
+}
+
+th, td {
+  width: calc(80vw / 9);
+  text-align: center;
+  flex-grow: 1;
+  color: #FFF;
+  font-weight: 900;
+}
+
+table {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  margin: 50px auto;
+  border: black solid 2px;
+  background-color: #4a6492;
+  width: 95%;
+}
+
+tbody {
+  background-color: #628dcc;
+}
+
+tbody tr {
+  border-style: solid 1px;
+  border-bottom-color: #FFF;
+}
+
+header, .userInfos, label {
+  display: flex;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFF;
+  padding: 10px 20px;
+  color: #4a6492;
+  border-bottom: black solid 1px;
+}
+
+header img {
+  width: 70px;
+  cursor: pointer;
+}
+
+label {
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+label input, label select {
+  padding: 0 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 30px;
+  background-color: #FFF;
+}
+
+form {
+  padding: 10px 20px;
+  background-color: #4a6492;
+  color: #FFF;
+}
+
+form button.innerHTML {
+  background-color: black;
+}
+
+thead tr {
+  height: 70px;
+}
+
+tbody tr td:last-child {
+  margin: 10px 0;
+}
+
+.userInfos {
+  flex-direction: column;
+  text-align: center;
+}
+
+.userInfos span {
+  margin: 5px;
+}
+
+td button {
+  padding: 10px 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-weight: 900;
+  background-color: #fbe692;
+  color: #91733d;
+  font-size: 17px;
+  cursor: pointer;
+  width: 71%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.delete-btn {
+  background-color: rgb(100, 224, 100);
+  color: green;
+  margin-top: 10px;
+  width: 71%;
+}
+
+.buttons-td {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-btn {
+  padding: 10px 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-weight: 900;
+  width: 10%;
+  background-color: rgb(255, 133, 133);
+  color: rgb(223, 0, 0);
+  font-size: 17px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-width: 150px;
+}
+
+.add-btn svg {
+  min-width: 25px;
+  width: 25px;
+  height: 25px;
+}
+
+.add-btn p {
+  margin: 0;
+  width: 50%;
+  text-align: center;
+  padding-right: 10px;
+}
