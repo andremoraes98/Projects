@@ -1,7 +1,7 @@
 # Projeto Star Wars
 
 <img src="../../images/STAR-WARS-1.png" alt="Project-logo-1">
-<img src="../../images/STAR-WARS-1.png" alt="Project-logo-2">
+<img src="../../images/STAR-WARS-2.png" alt="Project-logo-2">
 
 Este foi o primeiro projeto o qual utilizamos componentes funcionais no React.
 
