@@ -79,7 +79,7 @@ form button {
 .links div a {
   color: #2FC18C;
   font-size: 28px;
-  font-family: 'Epilogue';
+  font-family: 'Epilogue' sans-serif;
   font-style: normal;
   font-weight: 700;
 }

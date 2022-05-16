@@ -18,7 +18,7 @@ code {
   flex-direction: column;
   width: 20%;
   align-items: center;
-  margin: calc(60vh/2) auto;
+  margin: calc(60vh/ 2) auto;
   border: 1px solid black;
   padding: 40px 0;
   border-radius: 10px;
@@ -77,7 +77,6 @@ th, td {
 }
 
 table {
-  width: 100%;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   margin: 50px auto;
