@@ -1,5 +1,7 @@
 # Projeto Color Guess
 
+<img src="../../images/COLOR_GUESS.png" alt="Project-logo">
+
 Neste projeto, nós criamos um site que continha um jogo de advinhação de cor. Seis cores são dispostas em círculos e, a partir do código RGB dado, a pessoa usuária tem que tentar advinhar quais das seis cores corresponde àquele código RGB.
 
 Para isso, criamos um arquivo HTML, outro CSS e outro JavaScript.

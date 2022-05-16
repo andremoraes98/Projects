@@ -3,28 +3,28 @@
 Neste repositório, constam todos os projetos elaborados durante o curso da Trybe. O curso é dividido em 4 módulos. Em cada pasta, constam os projetos do respectivo módulo.
 
 ### Módulo 1: Fundamentos do Desenvolvimento Web:
-#### Lessons Learned;
-#### Playground Functions;
-#### Pixels Art;
-#### To Do List;
-#### Meme Generator;
-#### Guess the Color;
-#### Mistery Letter;
-#### Trybewarts;
-#### Unit Tests;
-#### Zoo Functions;
-#### Shopping Cart.
+#### Lessons Learned :heavy_check_mark: ;
+#### Playground Functions :heavy_check_mark: ;
+#### Pixels Art :heavy_check_mark: ;
+#### To Do List :heavy_check_mark: ;
+#### Meme Generator :heavy_check_mark:;
+#### Color Guess :heavy_check_mark: ;
+#### Mistery Letter :heavy_check_mark: ;
+#### Trybewarts :heavy_check_mark: ;
+#### Unit Tests :heavy_check_mark: ;
+#### Zoo Functions :heavy_check_mark: ;
+#### Shopping Cart :heavy_check_mark: .
 
 ---
 
 ### Módulo 2: Desenvolvimento Front End:
-#### Solar System;
-#### Tryunfo;
-#### TrybeTunes;
-#### React Tests;
-#### Trybe Wallet;
+#### Solar System :heavy_check_mark: ;
+#### Tryunfo :heavy_check_mark: ;
+#### TrybeTunes :heavy_check_mark: ;
+#### React Tests :heavy_check_mark: ;
+#### Trybe Wallet :heavy_check_mark: ;
 #### Trivia Game;
-#### StarWars Datable;
+#### StarWars Datable :heavy_check_mark: ;
 #### Recipe App.
 
 ---

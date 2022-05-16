@@ -1,5 +1,7 @@
 # Projeto Unit Test
 
+<img src="../../images/UNIT_TEST.png" alt="Project-logo">
+
 Neste projeto, fomos responsáveis hora por implementar funções, hora por implementar o test em Jest que verificava se essa função funcionava de acordo com o que foi projetada e hora fazíamos as duas coisas.
 
 Para isso, implementamos as funções da pasta src, e criamos os testes da pasta test. Todos os testes foram criados no Jest.

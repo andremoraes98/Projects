@@ -1,5 +1,7 @@
 # Projeto Lessons Learned
 
+<img src="../../images/LESSONS_LEARNED.png" alt="Project-logo">
+
 Neste projeto, nós criamos um site que contém informações gerais sobre o dia a dia na Trybe e as lições que aqui aprendemos e as que ainda aprenderemos.
 
 Para isso, o site foi desenvolvido com HTML e CSS.
