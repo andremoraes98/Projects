@@ -25,7 +25,7 @@ Neste repositório, constam todos os projetos elaborados durante o curso da Tryb
 #### Trybe Wallet :heavy_check_mark: ;
 #### Trivia Game;
 #### StarWars Datable :heavy_check_mark: ;
-#### Recipe App.
+#### Recipe App :heavy_check_mark:  .
 
 ---
 
