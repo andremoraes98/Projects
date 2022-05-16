@@ -1,6 +1,6 @@
 # Projeto Recipe App
 
-<div style="display: flex">
+<div style="display: flex; justify-content: space-around">
   <img src="../../images/TUDIBAO-LOGIN.png" alt="Project-logo">
   <img src="../../images/TUDIBAO-MAIN.png" alt="Project-logo">
 </div>
