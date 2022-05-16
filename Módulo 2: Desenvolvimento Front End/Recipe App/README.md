@@ -5,9 +5,13 @@
   <img src="../../images/TUDIBAO-MAIN.png" alt="Project-logo">
 </div>
 
-Este foi o nosso último projeto de Front End. Para formar e nos tornarmos um Desenvolvedor Front End Jr, fomos responsáveis por desenvolver um aplicativo que tem como principal propósito prover algumas receitas para a pessoa usuária. Para isso, consumimos duas APIs: uma para as bebidas (https://www.thecocktaildb.com/api.php) e outra para as comidas (https://www.themealdb.com/api.php).
+Este foi o nosso último projeto de Front End. Para formar e nos tornarmos um Desenvolvedor Front End Jr, fomos responsáveis por desenvolver um aplicativo que tem como principal propósito prover algumas receitas para a pessoa usuária. A aplicação foi, inicialmente, desenvolvida para web, com resolução de mobile.
 
-Para isso, criamos uma aplicação com o React, com o auxílio de alguns componentes.
+Os dados da aplicação foram providos de duas APIs: uma para as bebidas (https://www.thecocktaildb.com/api.php) e outra para as comidas (https://www.themealdb.com/api.php).
+
+Para explorar de forma completa, a aplicação está hospedada no domínio: <a href="http://tudibao.surge.sh">TudiBão</a>.
+
+Para fins de desenvolvimento, a nossa aplicação foi toda realizada com o React e a nossa equipe optou por utilizar apenas o ContextAPI como ferramenta para gerenciar os estados globais da aplicação.
 
 ---
 
