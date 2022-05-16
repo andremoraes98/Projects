@@ -182,12 +182,12 @@ Ao todo foram 87 requisitos:
   </details>
 
   <details>
-    Tela de perfil
+    <summary>Tela de perfil</summary>
 
-  82: Implemente os elementos da tela de perfil respeitando os atributos descritos no protótipo]
-  83: Implemente a solução de maneira que o e-mail da pessoa usuária deve estar visível]
-  84: Implemente 3 botões: um de nome "Done Recipes", um de nome "Favorite Recipes" e um de nome "Logout"]
-  85: Redirecione a pessoa usuária que, ao clicar no botão de "Favorite Recipes", a rota deve mudar para a tela de receitas favoritas]
-  86: Redirecione a pessoa usuária que, ao clicar no botão de "Done Recipes", a rota deve mudar para a tela de receitas feitas]
-  87: Redirecione a pessoa usuária que, ao clicar no botão de "Logout", o `localStorage` deve ser limpo e a rota deve mudar para a tela de login]
+  - 82: Implemente os elementos da tela de perfil respeitando os atributos descritos no protótipo]
+  - 83: Implemente a solução de maneira que o e-mail da pessoa usuária deve estar visível]
+  - 84: Implemente 3 botões: um de nome "Done Recipes", um de nome "Favorite Recipes" e um de nome "Logout"]
+  - 85: Redirecione a pessoa usuária que, ao clicar no botão de "Favorite Recipes", a rota deve mudar para a tela de receitas favoritas]
+  - 86: Redirecione a pessoa usuária que, ao clicar no botão de "Done Recipes", a rota deve mudar para a tela de receitas feitas]
+  - 87: Redirecione a pessoa usuária que, ao clicar no botão de "Logout", o `localStorage` deve ser limpo e a rota deve mudar para a tela de login]
   </details>
