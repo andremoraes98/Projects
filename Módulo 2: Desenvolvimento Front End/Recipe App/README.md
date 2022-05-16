@@ -2,7 +2,12 @@
 
 <div style="display: flex;" align="center">
   <img src="../../images/TUDIBAO-LOGIN.png" alt="Project-logo">
-  <img src="../../images/TUDIBAO-MAIN.png" alt="Project-logo">
+  <img src="../../images/TUDIBAO-EXPLORE-2.png" alt="Project-logo">
+</div>
+
+<div style="display: flex;" align="center">
+  <img src="../../images/TUDIBAO-EXPLORE-1.png" alt="Project-logo">
+  <img src="../../images/TUDIBAO-PROGRESS.png" alt="Project-logo">
 </div>
 
 Este foi o nosso último projeto de Front End. Para formar e nos tornarmos um Desenvolvedor Front End Jr, fomos responsáveis por desenvolver um aplicativo que tem como principal propósito prover algumas receitas para a pessoa usuária. A aplicação foi, inicialmente, desenvolvida para web, com resolução de mobile.
