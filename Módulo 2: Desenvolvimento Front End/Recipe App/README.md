@@ -1,6 +1,7 @@
 # Projeto Recipe App
 
 <img src="../../images/TUDIBAO-LOGIN.png" alt="Project-logo">
+<img src="../../images/TUDIBAO-MAIN.png" alt="Project-logo">
 
 Este foi o nosso último projeto de Front End. Para formar e nos tornarmos um Desenvolvedor Front End Jr, fomos responsáveis por desenvolver um aplicativo que tem como principal propósito prover algumas receitas para a pessoa usuária. Para isso, consumimos duas APIs: uma para as bebidas (https://www.thecocktaildb.com/api.php) e outra para as comidas (https://www.themealdb.com/api.php).
 
