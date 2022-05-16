@@ -1,0 +1,477 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: #f2ab91 !important;
+  font-family: Poppins , sans-serif !important;
+  height: 100%;
+  width: 100vw;
+}
+
+.header {
+  align-items: center;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #666;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  height: 61px;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+
+.header h4 {
+  margin-top: 7px;
+}
+
+.btn-search {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.search-input {
+  border: 0;
+  border-bottom: 1px solid #666;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  outline: none;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.footer-container {
+  background-color: #f2f2f2;
+  border-top: 1px solid #666;
+  bottom: 0;
+  box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* TELA EXPLORAR */
+.explore-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  justify-content: center;
+}
+
+.explore-container button {
+  border: 1px solid #666;
+  font-size: 21px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 250px;
+}
+
+/* TELA PROFILE */
+.profile-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  justify-content: center;
+}
+
+.profile-container button {
+  border: 1px solid #666;
+  font-size: 21px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 250px;
+}
+
+.recomendations {
+  display: flex;
+  overflow: scroll;
+  padding-bottom: 40px;
+}
+
+.recipe-recomendation {
+  margin: 0 10px;
+  margin-left: 0;
+  padding: 10px;
+}
+
+.start-btn {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.done-recipe-img img {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 100%;
+}
+
+.done-recipe-img {
+  width: 40%;
+}
+
+.done-recipe-describe {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.done-recipe-describe p {
+  margin: 0;
+}
+
+.done-recipe-top {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.done-recipe-ingredients {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.done-recipe-ingredients p {
+  background-color: #ecdede;
+  border-radius: 20px;
+  padding: 2% 4%;
+  text-align: center;
+}
+
+.done-recipe {
+  align-items: center;
+  background-color: #f2f2f2;
+  border: 1px solid #444;
+  border-radius: 12px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-around;
+  margin: 5% auto;
+  padding: 20px 0;
+  width: 90%;
+}
+
+.done-recipe-buttons, .favorite-buttons {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+
+.done-recipe-buttons button, .favorite-buttons button {
+  width: 30%;
+}
+
+.done-recipe-non-recipe {
+  height: 400px;
+  margin: 50% 15%;
+  text-align: center;
+}
+
+.favorite-share-btn {
+  display: flex;
+}
+
+.login-box button span {
+  display: block;
+  position: absolute;
+}
+
+.ingredients-check:checked + span {
+  text-decoration: line-through;
+}
+
+.filters, .container-foods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.filters {
+  margin-bottom: 10px;
+}
+
+.filters button {
+  background-color: #f24b0f;
+  width: 30%;
+}
+
+.container-foods {
+  padding-bottom: 80px;
+}
+
+.container-foods div, .recipe-recomendation, .container-foods a {
+  align-items: center;
+  background-color: #f2f2f2;
+  border: 1px solid #444;
+  border-radius: 10px;
+  color: #444;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  margin: 3px;
+  padding: 5px;
+  transition: 0.5s;
+  width: 45%;
+}
+
+.favorite-recipes a {
+  color: #444;
+}
+
+.container-foods div:hover, .recipe-recomendation:hover, .container-foods a:hover {
+  align-items: center;
+  background-color: #444;
+  border: 1px solid #444;
+  border-radius: 10px;
+  color: #f2f2f2;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  margin: 3px;
+  padding: 5px;
+  transition: 0.5s;
+  width: 45%;
+}
+
+.recipe-recomendation img, .container-foods div img, .container-foods a img {
+  border: 1px solid #444;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.container-foods div h6 {
+  text-align: center;
+  width: 90%;
+}
+
+.detail-photo {
+  border: 1px solid #444;
+  border-radius: 50%;
+  height: 25vh;
+  width: 25vh;
+}
+
+.recipe-detail {
+  align-items: center;
+  background-color: #f2f2f2;
+  color: #444;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.dropdown button {
+  margin-bottom: 10px;
+  width: 360px;
+}
+
+.login-box button:disabled {
+  cursor: not-allowed;
+  width: 100%;
+}
+
+.login-box button:enabled {
+  width: 100%;
+}
+
+.recipe-detail div:last-child {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.recipe-detail div:last-child button {
+  width: 35%;
+}
+
+.share-btn {
+  display: flex;
+}
+
+.instructions {
+  margin: 15px 20px;
+  text-align: justify;
+}
+
+.details-ingredients {
+  margin: 15px 20px;
+  padding-left: 15px;
+  text-align: justify;
+}
+
+iframe {
+  display: flex;
+  height: 170px;
+  margin: 15px auto;
+}
+
+.finish-recipe-btn {
+  width: 100%;
+}
+
+.list-group-item {
+  align-items: center;
+  display: flex;
+}
+
+.filter-search {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+form {
+  background-color: #f2f2f2;
+}
+
+.input-search {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.explore-buttons {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  justify-content: space-around;
+}
+
+.favorite-recipes div:last-child {
+  margin: 0 0 15px;
+  max-width: 300px;
+}
+
+.favorite-recipes {
+  border: 1px solid #444;
+  border-radius: 12px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  color: #444;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.content {
+  background-attachment: fixed;
+  background-image: url('../src/images/foodBackgroundRotated.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  height: 640px;
+  margin: 0 auto;
+  width: 450px;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.877);
+  border-radius: 10px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+  left: 50%;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+}
+
+.login-box h2 {
+  color: #f24b0f;
+  font-family: Dancing Script , cursive;
+  font-size: 50px;
+  margin: 0 0 30px;
+  padding: 0;
+  text-align: center;
+}
+
+.login-box p {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: black;
+  font-size: 16px;
+  margin-bottom: 30px;
+  outline: none;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.login-box form {
+  background: transparent;
+}
+
+@media ( min-width : 720px ) {
+
+  .content {
+    background-attachment: fixed;
+    background-image: url('../src/images/foodBackground.png');
+    background-size: cover;
+    display: flex;
+    height: 760px;
+    width: 100%;
+  }
+}
+
+@media ( min-width : 820px ) {
+
+  .content {
+    background-attachment: fixed;
+    background-image: url('../src/images/foodBackground.png');
+    background-size: cover;
+    display: flex;
+    height: 1200px;
+    width: 100%;
+  }
+}
+
+@media ( min-width : 1079px ) {
+
+  .content {
+    background-attachment: fixed;
+    background-image: url('../src/images/foodBackground.png');
+    background-size: cover;
+    display: flex;
+    height: 768px;
+    width: 100%;
+  }
+}
+
+@media ( min-width : 1918px ) {
+
+  .content {
+    background-attachment: fixed;
+    background-image: url('../src/images/foodBackground.png');
+    background-size: cover;
+    display: flex;
+    height: 1080px;
+    width: 100%;
+  }
+}
