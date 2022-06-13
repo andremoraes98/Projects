@@ -32,7 +32,7 @@ Neste repositório, constam todos os projetos elaborados durante o curso da Tryb
 ### Módulo 3: Desenvolvimento Back End;
 #### Docker Todo-List :heavy_check_mark: ;
 #### All For One :heavy_check_mark: ;
-#### One For All;
+#### One For All :heavy_check_mark: ;
 #### Talker Manager;
 #### Store Manager;
 #### Blog's API;
