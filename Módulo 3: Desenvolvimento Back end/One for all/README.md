@@ -1,14 +1,6 @@
 # Projeto Recipe App
 
-<div style="display: flex;" align="center">
-  <img src="../../images/TUDIBAO-LOGIN.gif" alt="Project-logo">
-  <img src="../../images/TUDIBAO-EXPLORE-2.gif" alt="Project-logo">
-</div>
-
-<div style="display: flex;" align="center">
-  <img src="../../images/TUDIBAO-EXPLORE-1.gif" alt="Project-logo">
-  <img src="../../images/TUDIBAO-PROGRESS.gif" alt="Project-logo">
-</div>
+<img src="../../images/ONE_FOR_ALL.gif" alt="Project-logo">
 
 Este foi o nosso último projeto de Front End. Para formar e nos tornarmos um Desenvolvedor Front End Jr, fomos responsáveis por desenvolver um aplicativo que tem como principal propósito prover algumas receitas para a pessoa usuária. A aplicação foi, inicialmente, desenvolvida para web, com resolução de mobile.
 
@@ -22,25 +14,21 @@ Para fins de desenvolvimento, a nossa aplicação foi toda realizada com o React
 
 # Habilidades
 
-- Utilizar _Redux_ para gerenciar estado;
+- Normalizar dados dispostos em uma tabela;
 
-- Utilizar a biblioteca _React-Redux_;
+- Criar e popular um banco de dados com o MySQL;
 
-- Utilizar a Context API do _React_ para gerenciar estado;
+- Manipular comandos SQL mais usados no dia a dia para selecionar e criar dados;
 
-- Utilizar o _React Hook useState_;
+- Fazer consultas mais refinadas, complexas e precisas ao banco de dados;
 
-- Utilizar o _React Hook useContext_;
-
-- Utilizar o _React Hook useEffect_;
-
-- Criar Hooks customizados.
+- Manipular tabelas, fazendo inserções, alterações e exclusões.
 
 ---
 
 ## Requisitos
 
-Ao todo foram 87 requisitos:
+Ao todo foram 11 requisitos, sendo um deles bônus:
   
   <details>
     <summary>
@@ -155,6 +143,8 @@ Ao todo foram 87 requisitos:
 
     3. Seus resultados devem estar agrupados pelo nome da canção e ordenados em ordem alfabética.
   </details>
+
+  ### Bônus
 
   <details>
     <summary>
