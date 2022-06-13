@@ -1,4 +1,4 @@
-# Projeto Recipe App
+# Projeto One for all
 
 <img src="../../images/ONE_FOR_ALL.png" alt="Project-logo">
 
