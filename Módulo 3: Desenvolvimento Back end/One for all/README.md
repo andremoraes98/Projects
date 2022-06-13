@@ -1,14 +1,10 @@
 # Projeto Recipe App
 
-<img src="../../images/ONE_FOR_ALL.gif" alt="Project-logo">
+<img src="../../images/ONE_FOR_ALL.png" alt="Project-logo">
 
-Este foi o nosso último projeto de Front End. Para formar e nos tornarmos um Desenvolvedor Front End Jr, fomos responsáveis por desenvolver um aplicativo que tem como principal propósito prover algumas receitas para a pessoa usuária. A aplicação foi, inicialmente, desenvolvida para web, com resolução de mobile.
+Este foi o segundo projeto o qual utilizamos o WorkBench o MySQL para criar, popular e estabelecer queries para mostrar os dados. 
 
-Os dados da aplicação foram providos de duas APIs: uma para as bebidas (https://www.thecocktaildb.com/api.php) e outra para as comidas (https://www.themealdb.com/api.php).
-
-Para explorar de forma completa, a aplicação está hospedada no domínio: <a target="_blank" href="https://tudibao.surge.sh">TudiBão</a>.
-
-Para fins de desenvolvimento, a nossa aplicação foi toda realizada com o React e a nossa equipe optou por utilizar apenas o ContextAPI como ferramenta para gerenciar os estados globais da aplicação.
+Primeiro tivemos que normalizar uma tabela fictícia que nos foi disponibilizada e, depois disso, estabeler a criação da mesma no WorkBench. Depois disso, criamos algumas queries para que dados específicos fossem mostrados.
 
 ---
 
