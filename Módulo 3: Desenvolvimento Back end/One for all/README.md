@@ -51,13 +51,13 @@ Ao todo foram 87 requisitos:
   <details>
     <summary>Desafio 1</summary>
 
-    1. Crie um banco com o nome de **`SpotifyClone`**;
+    - Crie um banco com o nome de **`SpotifyClone`**;
 
-    2. Providencie as queries necessárias para criar tabelas normalizadas que atendam aos requisitos descritos na seção anterior;
+    - Providencie as queries necessárias para criar tabelas normalizadas que atendam aos requisitos descritos na seção anterior;
 
-    3. Providencie as queries necessárias para popular as tabelas de acordo com os dados listados na seção anterior;
+    - Providencie as queries necessárias para popular as tabelas de acordo com os dados listados na seção anterior;
 
-    4. Crie um arquivo de configurações `desafio1.json`, que mapeará em qual tabela e coluna se encontram as informações necessárias para a avaliação automatizada deste desafio. 
+    - Crie um arquivo de configurações `desafio1.json`, que mapeará em qual tabela e coluna se encontram as informações necessárias para a avaliação automatizada deste desafio. 
   </details>
 
   <details>
