@@ -49,9 +49,9 @@ Ao todo foram 87 requisitos:
   </details>
   
   <details>
-    <strong>
-      <summary>Desafio 1</summary>
-    </strong>
+    <summary>
+      <strong>Desafio 1</strong>
+    </summary>
 
     1. Crie um banco com o nome de **`SpotifyClone`**;
 
