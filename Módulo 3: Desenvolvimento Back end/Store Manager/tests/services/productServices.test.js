@@ -1,8 +1,8 @@
 const { expect } = require('chai');
 const sinon = require('sinon');
 
-const ModelProduct = require('../../../models/modelProducts');
-const ServiceProduct = require('../../../services/servicesProducts');
+const ModelProduct = require('../../models/modelProducts');
+const ServiceProduct = require('../../services/servicesProducts');
 
 const PRODUCT_NAME = 'Manopla do Thanos';
 const defaultProduct = {
