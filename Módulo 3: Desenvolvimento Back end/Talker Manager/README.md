@@ -24,13 +24,13 @@ Foram criados alguns MiddleWares de validação para tratar requisições invál
 
 ## Requisitos
 
-Ao todo foram 11 requisitos, sendo um deles bônus:
+Ao todo foram 8 requisitos, sendo eles:
   
-### 1. Crie o endpoint GET `/talker`;
-### 2. Crie o endpoint GET `/talker/:id`;
-### 3 - Crie o endpoint POST `/login`;
-### 4 - Adicione as validações para o endpoint `/login`;
-### 5 - Crie o endpoint POST `/talker`;
-### 6 - Crie o endpoint PUT `/talker/:id`;
-### 7 - Crie o endpoint DELETE `/talker/:id`;
-### 8 - Crie o endpoint GET `/talker/search?q=searchTerm`.
+#### 1. Crie o endpoint GET `/talker`;
+#### 2. Crie o endpoint GET `/talker/:id`;
+#### 3. Crie o endpoint POST `/login`;
+#### 4. Adicione as validações para o endpoint `/login`;
+#### 5. Crie o endpoint POST `/talker`;
+#### 6. Crie o endpoint PUT `/talker/:id`;
+#### 7. Crie o endpoint DELETE `/talker/:id`;
+#### 8. Crie o endpoint GET `/talker/search?q=searchTerm`.
