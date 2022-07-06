@@ -34,7 +34,7 @@ Neste repositório, constam todos os projetos elaborados durante o curso da Tryb
 #### All For One :heavy_check_mark: ;
 #### One For All :heavy_check_mark: ;
 #### Talker Manager :heavy_check_mark: ;
-#### Store Manager;
+#### Store Manager :heavy_check_mark: ;
 #### Blog's API;
 #### Stranger Things;
 #### Trybe Smith;
