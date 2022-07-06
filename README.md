@@ -33,7 +33,7 @@ Neste repositório, constam todos os projetos elaborados durante o curso da Tryb
 #### Docker Todo-List :heavy_check_mark: ;
 #### All For One :heavy_check_mark: ;
 #### One For All :heavy_check_mark: ;
-#### Talker Manager;
+#### Talker Manager :heavy_check_mark: ;
 #### Store Manager;
 #### Blog's API;
 #### Stranger Things;
