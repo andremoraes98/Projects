@@ -1,8 +1,8 @@
 const { expect } = require('chai');
 const sinon = require('sinon');
 
-const SalesService = require('../../../services/servicesSales');
-const SalesController = require('../../../controllers/controllerSales');
+const SalesService = require('../../services/servicesSales');
+const SalesController = require('../../controllers/controllerSales');
 
 describe('Cria uma venda', () => {
   const req = {};

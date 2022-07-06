@@ -1,8 +1,8 @@
 const { expect } = require('chai');
 const sinon = require('sinon');
 
-const connection = require('../../../models/connection');
-const ModelSales = require('../../../models/modelSales');
+const connection = require('../../models/connection');
+const ModelSales = require('../../models/modelSales');
 
 describe('Retorna o ID da venda criada', () => {
   before(async () => {

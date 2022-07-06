@@ -1,8 +1,8 @@
 const { expect } = require('chai');
 const sinon = require('sinon');
 
-const ModelProduct = require('../../../models/modelProducts');
-const connection = require('../../../models/connection');
+const ModelProduct = require('../../models/modelProducts');
+const connection = require('../../models/connection');
 
 describe('Retorna os produtos', () => {
   describe('quando nenhum id é informado', () => {

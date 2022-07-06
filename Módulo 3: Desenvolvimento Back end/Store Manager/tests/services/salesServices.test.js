@@ -1,9 +1,9 @@
 const { expect } = require('chai');
 const sinon = require('sinon');
 
-const SalesModels = require('../../../models/modelSales');
-const ProductsModels = require('../../../models/modelProducts');
-const SalesServices = require('../../../services/servicesSales');
+const SalesModels = require('../../models/modelSales');
+const ProductsModels = require('../../models/modelProducts');
+const SalesServices = require('../../services/servicesSales');
 
 describe('Valida as vendas recebidas', () => {
   describe('quando não é informado um "id"', () => {

@@ -1,8 +1,8 @@
 const { expect } = require('chai');
 const sinon = require('sinon');
 
-const ProductService = require('../../../services/servicesProducts');
-const ProductController = require('../../../controllers/controllerProducts');
+const ServicesProducts = require('../../services/servicesProducts');
+const ControllerProduct = require('../../controllers/controllerProducts');
 
 describe('Retorna todos os produtos', () => {
   describe('quando não é informado um "id"', () => {
@@ -17,24 +17,24 @@ describe('Retorna todos os produtos', () => {
         }
       ];
 
-      sinon.stub(ProductService, 'getAll').resolves(products);
+      sinon.stub(ServicesProducts, 'getAll').resolves(products);
 
       res.status = sinon.stub().returns(res);
       res.json = sinon.stub().returns(products);
     });
 
     after(() => {
-      ProductService.getAll.restore();
+      ServicesProducts.getAll.restore();
     });
 
     it('espera um status 200.', async () => {
-      await ProductController.getAll(req, res);
+      await ControllerProduct.getAll(req, res);
 
       expect(res.status.calledWith(200)).to.be.equal(true);
     });
 
     it('espera retornar um json com os produtos.', async () => {
-      const products = await ProductController.getAll(req, res);
+      const products = await ControllerProduct.getAll(req, res);
 
       expect(products).to.be.a('array');
     });
@@ -50,7 +50,7 @@ describe('Retorna todos os produtos', () => {
         "name": "Martelo de Thor"
       };
 
-      sinon.stub(ProductService, 'getById').resolves(products);
+      sinon.stub(ServicesProducts, 'getById').resolves(products);
 
       req.params = { id: 1 };
 
@@ -59,17 +59,17 @@ describe('Retorna todos os produtos', () => {
     });
 
     after(() => {
-      ProductService.getById.restore();
+      ServicesProducts.getById.restore();
     });
 
     it('espera um status 200.', async () => {
-      await ProductController.getById(req, res);
+      await ControllerProduct.getById(req, res);
 
       expect(res.status.calledWith(200)).to.be.equal(true);
     });
 
     it('espera retornar um json com os produtos.', async () => {
-      const products = await ProductController.getById(req, res);
+      const products = await ControllerProduct.getById(req, res);
 
       expect(products).to.be.a('object');
     });
@@ -80,7 +80,7 @@ describe('Retorna todos os produtos', () => {
     const res = {};
 
     before(() => {
-      sinon.stub(ProductService, 'getById').resolves(undefined);
+      sinon.stub(ServicesProducts, 'getById').resolves(undefined);
 
       req.params = { id: 10 };
 
@@ -89,17 +89,17 @@ describe('Retorna todos os produtos', () => {
     });
 
     after(() => {
-      ProductService.getById.restore();
+      ServicesProducts.getById.restore();
     });
 
     it('espera um status 404.', async () => {
-      await ProductController.getById(req, res);
+      await ControllerProduct.getById(req, res);
 
       expect(res.status.calledWith(404)).to.be.equal(true);
     });
 
     it('espera retornar um json com os produtos.', async () => {
-      const products = await ProductController.getById(req, res);
+      const products = await ControllerProduct.getById(req, res);
 
       expect(products).to.have.property('message');
     });
@@ -116,7 +116,7 @@ describe('Cria um produto', () => {
       name: "Eu sou a Lenda"
     };
 
-    sinon.stub(ProductService, 'create').resolves(product);
+    sinon.stub(ServicesProducts, 'create').resolves(product);
 
     req.body = {
       name: "Eu sou a Lenda"
@@ -127,17 +127,17 @@ describe('Cria um produto', () => {
   });
 
   after(() => {
-    ProductService.create.restore();
+    ServicesProducts.create.restore();
   });
 
   it('espera que seja retornado um código 201.', async () => {
-    await ProductController.create(req, res);
+    await ControllerProduct.create(req, res);
 
     expect(res.status.calledWith(201)).to.be.equal(true);
   });
 
   it('espera que o produto criado seja retornado.', async () => {
-    const product = await ProductController.create(req, res);
+    const product = await ControllerProduct.create(req, res);
 
     expect(product).to.be.a('object');
   });
@@ -159,23 +159,23 @@ describe('Atualiza um produto', () => {
       name: req.body.name,
     };
 
-    sinon.stub(ProductService, 'update').resolves(product);
+    sinon.stub(ServicesProducts, 'update').resolves(product);
     res.status = sinon.stub().returns(res);
     res.json = sinon.stub().returns(product);
   });
 
   after(() => {
-    ProductService.update.restore();
+    ServicesProducts.update.restore();
   });
 
   it('espera que seja retornado um código 200.', async () => {
-    await ProductController.update(req, res);
+    await ControllerProduct.update(req, res);
 
     expect(res.status.calledWith(200)).to.be.equal(true);
   });
 
   it('espera que o produto criado seja retornado.', async () => {
-    const product = await ProductController.update(req, res);
+    const product = await ControllerProduct.update(req, res);
 
     expect(product).to.be.a('object');
   });
@@ -190,17 +190,17 @@ describe('Deleta um produto', () => {
       id: 1
     };
 
-    sinon.stub(ProductService, 'deleteById').resolves();
+    sinon.stub(ServicesProducts, 'deleteById').resolves();
     res.status = sinon.stub().returns(res);
     res.end = sinon.stub().returns();
   });
 
   after(() => {
-    ProductService.deleteById.restore();
+    ServicesProducts.deleteById.restore();
   });
 
   it('espera que seja retornado um código 204.', async () => {
-    await ProductController.deleteById(req, res);
+    await ControllerProduct.deleteById(req, res);
 
     expect(res.status.calledWith(204)).to.be.equal(true);
   });
@@ -222,17 +222,17 @@ describe('Filtra um produto', () => {
       }
     ];
 
-    sinon.stub(ProductService, 'searchByTerm').resolves(product);
+    sinon.stub(ServicesProducts, 'searchByTerm').resolves(product);
     res.status = sinon.stub().returns(res);
     res.json = sinon.stub().returns(product);
   });
 
   after(() => {
-    ProductService.searchByTerm.restore();
+    ServicesProducts.searchByTerm.restore();
   });
 
   it('espera que seja retornado um código 200.', async () => {
-    await ProductController.searchByTerm(req, res);
+    await ControllerProduct.searchByTerm(req, res);
 
     expect(res.status.calledWith(200)).to.be.equal(true);
   });
