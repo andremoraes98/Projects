@@ -16,9 +16,9 @@ Foram criados alguns MiddleWares de validação para tratar requisições invál
 
 - Criar endpoints que recebem informações no corpo de requisição;
 
-- Criar endpoints que recebem informações nos parâmetros do endpoint;
+- Criar endpoints que recebem informações nos parâmetros e queries do endpoint;
 
-- Criar endpoints que recebem informações nas queries do endpoint.
+- Utilizar um software (neste caso, o Insomnia) para realizar as requisições.
 
 ---
 
