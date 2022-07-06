@@ -2,23 +2,23 @@
 
 <img src="../../images/TALKER_MANAGER.png" alt="Project-logo">
 
-Este foi o primeiro projeto o qual utilizamos o Express para criar APIs. Por hora, ainda sem conectar com o banco de dados para salvar as informações. Por isso, existe o arquivo "talker.json", com o intuito de simular o Banco de Dados.
+Este foi o primeiro projeto o qual utilizamos o Express para criar APIs. Por hora, ainda sem conectar com o banco de dados para salvar as informações. Por isso, existe o arquivo `talker.json`, com o intuito de simular o Banco de Dados.
 
-Foram criados alguns MiddleWares de validação para tratar requisições inválidas. Eles podem ser encontrados no arquivo "validation.js".
+Foram criados alguns MiddleWares de validação para tratar requisições inválidas. Eles podem ser encontrados no arquivo `validation.js`.
 
 ---
 
 # Habilidades
 
-- Normalizar dados dispostos em uma tabela;
+- Desenvolver uma API com o NodeJs utilizando o Express;
 
-- Criar e popular um banco de dados com o MySQL;
+- Criar MiddleWares de validação de dados para as requisições;
 
-- Manipular comandos SQL mais usados no dia a dia para selecionar e criar dados;
+- Criar endpoints que recebem informações no corpo de requisição;
 
-- Fazer consultas mais refinadas, complexas e precisas ao banco de dados;
+- Criar endpoints que recebem informações nos parâmetros do endpoint;
 
-- Manipular tabelas, fazendo inserções, alterações e exclusões.
+- Criar endpoints que recebem informações nas queries do endpoint.
 
 ---
 

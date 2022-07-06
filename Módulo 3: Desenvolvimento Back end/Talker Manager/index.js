@@ -16,7 +16,6 @@ const {
 const app = express();
 app.use(express.json());
 
-const HTTP_OK_STATUS = 200;
 const PORT = '3000';
 const FILE_NAME = './talker.json';
 
