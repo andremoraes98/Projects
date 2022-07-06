@@ -20,11 +20,6 @@ const HTTP_OK_STATUS = 200;
 const PORT = '3000';
 const FILE_NAME = './talker.json';
 
-// não remova esse endpoint, e para o avaliador funcionar
-app.get('/', (_request, response) => {
-  response.status(HTTP_OK_STATUS).send();
-});
-
 app.get('/talker/search', validateToken, validateSearchName, async (req, res) => {
   const { q } = req.query;
   const registeredPeople = await fs.readFile(FILE_NAME, 'utf-8');
