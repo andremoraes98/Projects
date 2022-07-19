@@ -14,15 +14,15 @@ Toda aplicação foi feita através do TDD, contendo testes que cobrem 100% do q
 
 - Desenvolver uma API CRUD com o NodeJs utilizando o Express;
 
-- Desenvolver através da metodologia TDD (Test Driven Development);
+- Desenvolver queries e criar tabelas do Banco de Dados através da ORM (Object-Relational Mapper) Sequelize;
 
-- Conectar a API com um banco de dados SQL;
+- Utilizar o JWB (JSON Web Token) para validar e autenticar um usuário;
 
 - Criar MiddleWares de validação de dados para as requisições;
 
 - Utilizar da arquitetura MSC (Model, Service, Controller) e REST API;
 
-- Utilizar um software (neste caso, o Insomnia) para realizar as requisições.
+- Desenvolver as relações 1:1, 1:N e N:N através do Sequelize.
 
 ---
 
