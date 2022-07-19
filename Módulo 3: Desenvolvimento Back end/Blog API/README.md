@@ -2,11 +2,11 @@
 
 <img src="../../images/BLOG_API.png" alt="Project-logo">
 
-Neste projeto, colocamos em prática estilo arquiteturao MSC e o REST API, desenvolvendo uma API com o Express, através do NodeJS. Vale ressaltar que foi o primeiro projeto criado linkando a aplicação com um banco de dados SQL.
+Neste projeto, colocamos em prática, pela primeira vez, a utilização do Sequelize para criar o Banco de Dados, as tabelas e também para realizar as consultas ao Banco de dados da camada Model.
 
-Isso significa que podemos Criar (Create), Ler (Read), Atualizar (Update) e Excluir (Delete) quaisquer dados do nosso banco de dados através da API.
+Vale ressaltar que mantido o estilo arquitetural MSC e o REST API.
 
-Toda aplicação foi feita através do TDD, contendo testes que cobrem 100% do que foi desenvolvido.
+Todo o processo de desenvolvimento foi feito com NodeJS com o auxílio da biblioteca Express.
 
 ---
 
