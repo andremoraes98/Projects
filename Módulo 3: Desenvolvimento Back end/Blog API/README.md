@@ -28,28 +28,26 @@ Toda aplicação foi feita através do TDD, contendo testes que cobrem 100% do q
 
 ## Requisitos
 
-Ao todo foram 20 requisitos, sendo um 8 deles bônus:
+Ao todo foram 18 requisitos, sendo um 3 deles bônus:
   
-#### 1. Crie endpoints para listar produtos;
-#### 2. Desenvolva testes que cubram no mínimo 5% das camadas da sua aplicação;
-#### 3. Crie endpoint para cadastrar produtos;
-#### 4. Crie validações para produtos;
-#### 5. Desenvolva testes que cubram no mínimo 10% das camadas da sua aplicação;
-#### 6. Crie endpoint para validar e cadastrar vendas;
-#### 7. Desenvolva testes que cubram no mínimo 15% das camadas da sua aplicação;
-#### 8. Crie endpoints para listar vendas;
-#### 9. Desenvolva testes que cubram no mínimo 20% das camadas da sua aplicação;
-#### 10. Crie endpoint para atualizar um produto;
-#### 11. Desenvolva testes que cubram no mínimo 25% das camadas da sua aplicação;
-#### 12. Crie endpoint para deletar um produto.
+#### 1. Crie migrations para as entidades User, Categories, BlogPosts, PostCategories;
+#### 2. Crie o modelo 'User' em 'src/database/models/user.js' com as propriedades corretas;
+#### 3. Sua aplicação deve ter o endpoint POST `/login`;
+#### 4. Sua aplicação deve ter o endpoint POST `/user`;
+#### 5. Sua aplicação deve ter o endpoint GET `/user`;
+#### 6. Sua aplicação deve ter o endpoint GET `/user/:id`;
+#### 7. Crie o modelo 'Category' em 'src/database/models/category.js' com as propriedades corretas;
+#### 8. Sua aplicação deve ter o endpoint POST `/categories`;
+#### 9. Sua aplicação deve ter o endpoint GET `/categories`;
+#### 10. Crie o modelo 'BlogPost' em 'src/database/models/blogPost.js' com as propriedades e associações corretas;
+#### 11. Crie o modelo 'PostCategory' em 'src/database/models/postCategory.js' com as propriedades e associações corretas;
+#### 12. Sua aplicação deve ter o endpoint POST `/post`;
+#### 13. Sua aplicação deve ter o endpoint GET `/post`;
+#### 14. Sua aplicação deve ter o endpoint GET `/post/:id`;
+#### 15. Sua aplicação deve ter o endpoint PUT `/post/:id`.
 
 ### Bônus
 
-#### 13. Desenvolva testes que cubram no mínimo 30% das camadas da sua aplicação;
-#### 14. Crie endpoint para deletar uma venda;
-#### 15. Desenvolva testes que cubram no mínimo 35% das camadas da sua aplicação;
-#### 16. Crie endpoint para atualizar uma venda;
-#### 17. Desenvolva testes que cubram no mínimo 40% das camadas da sua aplicação;
-#### 18. Crie endpoint `products/search?q=searchTerm`;
-#### 19. Desenvolva testes que cubram no mínimo 50% das camadas da sua aplicação;
-#### 20. Desenvolva testes que cubram no mínimo 60% das camadas da sua aplicação.
+#### 16. Sua aplicação deve ter o endpoint DELETE `/post/:id`;
+#### 17. Sua aplicação deve ter o endpoint DELETE `/user/me`;
+#### 18. Sua aplicação deve ter o endpoint GET `/post/search?q=:searchTerm`.
